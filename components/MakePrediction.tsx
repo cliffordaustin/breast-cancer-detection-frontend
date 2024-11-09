@@ -73,7 +73,6 @@ function MakePrediction() {
 
     toast.success("Data saved successfully");
 
-    //reset form
     setPrediction(null);
     setFiles(undefined);
     setNoFiles(false);
