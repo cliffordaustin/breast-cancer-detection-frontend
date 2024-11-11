@@ -13,8 +13,6 @@ const open_sans = Open_Sans({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
-  // This ensures that data is not shared
-  // between different users and requests
   const [queryClient] = useState(() => new QueryClient());
 
   const router = useRouter();
