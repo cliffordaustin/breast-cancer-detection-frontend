@@ -187,7 +187,6 @@ function MakePrediction() {
         <Divider className="my-4"></Divider>
 
         <div>
-          {/* <h1 className="text-2xl leading-3 font-black mt-4">Prediction</h1> */}
           {loading && (
             <div className="flex items-center justify-center">
               <Loader className=""></Loader>
